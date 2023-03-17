@@ -11,6 +11,8 @@ public interface UserService {
 	UserRegistrationDto loadUser(String username);
 
 	boolean authenticateUser(String username, String password);
+	
+	//Hi Yo
 
     Users findUsersToMessage(String username);
 }

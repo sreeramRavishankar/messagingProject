@@ -25,7 +25,6 @@ public class MessageServiceImpl implements MessageService {
         return new Messages();
     }
     
-    //New Change
 
     @Override
     public Message save(MessageRegistrationDto messageRegistrationDto) {
